@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZininaMatveevaTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" 
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Image Source="/Resources/Шеврон.jpg" HorizontalAlignment="Left" />
+        <Border Background="#FF146D46" Margin="100 0 0 0"/>
+        <TextBlock Text="ТПСК им. В.М. Максимчука" FontSize="50" FontWeight="Bold" 
+                   Margin="100 0 0 0" VerticalAlignment="Center"/>
+
+
+
+
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+        </Grid>
     </Grid>
 </Window>
