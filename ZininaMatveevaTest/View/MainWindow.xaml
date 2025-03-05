@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZininaMatveevaTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" 
+        Title="Окно выбора роли" Height="450" Width="800" 
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
@@ -17,10 +17,6 @@
         <TextBlock Text="ТПСК им. В.М. Максимчука" FontSize="50" FontWeight="Bold" 
                    Margin="100 0 0 0" VerticalAlignment="Center"/>
 
-
-
-
-
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
@@ -28,6 +24,15 @@
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
+            <TextBlock Text="Тесты по дисциплине" FontSize="35" FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+            <TextBlock Text="Экономика отрасли" FontSize="35" FontWeight="Bold"
+                       Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Grid.Row="2" Height="40" Width="400" Content="Преподаватель"
+                    Name="TeacherBtn" Click="TeacherBtn_Click"/>
+            <Button Grid.Row="3" Height="40" Width="400" Content="Студент"
+                    Name="StudentBtn" Click="StudentBtn_Click"/>
+            
         </Grid>
     </Grid>
 </Window>

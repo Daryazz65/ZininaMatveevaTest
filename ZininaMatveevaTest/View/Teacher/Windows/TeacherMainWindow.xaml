@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZininaMatveevaTest.View.Teacher.Windows"
         mc:Ignorable="d"
-        Title="TeacherMainWindow" Height="450" Width="800">
+         Title="Окно авторизации преподавателя" Height="450" Width="800" 
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Image Source="/Resources/Шеврон.jpg" HorizontalAlignment="Left" />
+        <Border Background="#FF146D46" Margin="100 0 0 0"/>
+        <TextBlock Text="ТПСК им. В.М. Максимчука" FontSize="50" FontWeight="Bold" 
+                   Margin="100 0 0 0" VerticalAlignment="Center"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Светлана Дмитриевна, введите пароль:" FontSize="20"
+                       VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            <TextBox Grid.Row="1" Name="PasswordTb" BorderBrush="Black"
+                     Width="250" Height="60"/>
+            <Button Content="OK" Grid.Row="2" Name="OkBtn" Click="OkBtn_Click"
+                    Height="40" Width="60" Margin="0 0 0 50"/>
+        </Grid>
     </Grid>
 </Window>

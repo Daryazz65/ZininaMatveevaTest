@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZininaMatveevaTest.View.Teacher.Windows;
 
 namespace ZininaMatveevaTest
 {
@@ -23,6 +24,18 @@ namespace ZininaMatveevaTest
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void TeacherBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TeacherMainWindow teacherMainWindow = new TeacherMainWindow();
+            teacherMainWindow.Show();
+            Close();
+        }
+
+        private void StudentBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

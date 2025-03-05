@@ -23,5 +23,22 @@ namespace ZininaMatveevaTest.View.Teacher.Windows
         {
             InitializeComponent();
         }
+
+        private void OkBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (PasswordTb.Text == "123")
+            {
+                TeacherWindow teacherWindow = new TeacherWindow();
+                teacherWindow.Show();
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Пароль неверный!");
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                Close();
+            }
+        }
     }
 }
