@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ZininaMatveevaTest.View.Teacher.Windows
+namespace ZininaMatveevaTest.View.Teacher.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для TeacherWindow.xaml
+    /// Логика взаимодействия для AddGroupPage.xaml
     /// </summary>
-    public partial class TeacherWindow : Window
+    public partial class AddGroupPage : Page
     {
-        public TeacherWindow()
+        public AddGroupPage()
         {
             InitializeComponent();
         }

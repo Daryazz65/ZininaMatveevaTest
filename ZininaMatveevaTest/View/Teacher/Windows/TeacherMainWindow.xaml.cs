@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ZininaMatveevaTest.AppData;
+using ZininaMatveevaTest.View.Teacher.Pages;
 
 namespace ZininaMatveevaTest.View.Teacher.Windows
 {
@@ -22,15 +24,17 @@ namespace ZininaMatveevaTest.View.Teacher.Windows
         public TeacherMainWindow()
         {
             InitializeComponent();
+            TeacherMainPage teacherMainPage = new TeacherMainPage();
+            TeacherMainFrame.Navigate(teacherMainPage);
+            FrameHelper.selectedFrame = TeacherMainFrame;
         }
 
         private void OkBtn_Click(object sender, RoutedEventArgs e)
         {
             if (PasswordTb.Text == "123")
             {
-                TeacherWindow teacherWindow = new TeacherWindow();
-                teacherWindow.Show();
-                Close();
+                TeacherMainPage teacherMainPage = new TeacherMainPage();
+                TeacherMainFrame.Navigate(teacherMainPage);
             }
             else
             {

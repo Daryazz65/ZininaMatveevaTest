@@ -64,11 +64,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AppData\FrameHelper.cs" />
+    <Compile Include="View\Teacher\Pages\AddGroupPage.xaml.cs">
+      <DependentUpon>AddGroupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Teacher\Pages\AddStudentPage.xaml.cs">
+      <DependentUpon>AddStudentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Teacher\Pages\TeacherMainPage.xaml.cs">
+      <DependentUpon>TeacherMainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Teacher\Windows\TeacherMainWindow.xaml.cs">
       <DependentUpon>TeacherMainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Teacher\Windows\TeacherWindow.xaml.cs">
-      <DependentUpon>TeacherWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="Styles\ButtonSt.xaml">
       <SubType>Designer</SubType>
@@ -86,11 +93,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="View\Teacher\Windows\TeacherMainWindow.xaml">
+    <Page Include="View\Teacher\Pages\AddGroupPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Teacher\Windows\TeacherWindow.xaml">
+    <Page Include="View\Teacher\Pages\AddStudentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Teacher\Pages\TeacherMainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Teacher\Windows\TeacherMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -175,7 +190,6 @@
   <ItemGroup>
     <Folder Include="View\Student\Pages\" />
     <Folder Include="View\Student\Windows\" />
-    <Folder Include="View\Teacher\Pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
