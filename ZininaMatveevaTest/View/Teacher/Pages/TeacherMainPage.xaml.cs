@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZininaMatveevaTest.View.Teacher.Windows;
 
 namespace ZininaMatveevaTest.View.Teacher.Pages
 {
@@ -40,17 +41,19 @@ namespace ZininaMatveevaTest.View.Teacher.Pages
         private void ListMarkStudentBtn_Click(object sender, RoutedEventArgs e)
         {
             ListStudentPage listStudentPage = new ListStudentPage();
-            MenuFrame.Navigate
+            MenuFrame.Navigate(listStudentPage);
         }
 
         private void DeleteStudentBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            DeleteStudentPage deleteStudentPage = new DeleteStudentPage();
+            MenuFrame.Navigate(deleteStudentPage);
         }
 
         private void GoOutBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
         }
     }
 }
