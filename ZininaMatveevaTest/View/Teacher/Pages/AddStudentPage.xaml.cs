@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZininaMatveevaTest.Model;
 
 namespace ZininaMatveevaTest.View.Teacher.Pages
 {
@@ -23,6 +24,16 @@ namespace ZininaMatveevaTest.View.Teacher.Pages
         public AddStudentPage()
         {
             InitializeComponent();
+        }
+
+        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void GoOutBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

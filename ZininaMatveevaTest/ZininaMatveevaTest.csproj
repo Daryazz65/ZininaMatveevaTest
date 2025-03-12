@@ -71,6 +71,12 @@
     <Compile Include="View\Teacher\Pages\AddStudentPage.xaml.cs">
       <DependentUpon>AddStudentPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Teacher\Pages\DeleteStudentPage.xaml.cs">
+      <DependentUpon>DeleteStudentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Teacher\Pages\ListStudentPage.xaml.cs">
+      <DependentUpon>ListStudentPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Teacher\Pages\TeacherMainPage.xaml.cs">
       <DependentUpon>TeacherMainPage.xaml</DependentUpon>
     </Compile>
@@ -98,6 +104,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Teacher\Pages\AddStudentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Teacher\Pages\DeleteStudentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Teacher\Pages\ListStudentPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -27,17 +27,20 @@ namespace ZininaMatveevaTest.View.Teacher.Pages
 
         private void AddStudent_Click(object sender, RoutedEventArgs e)
         {
-
+            AddStudentPage addStudentPage = new AddStudentPage();
+            MenuFrame.Navigate(addStudentPage);
         }
 
         private void AddGroupBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            AddGroupPage addGroupPage = new AddGroupPage();
+            MenuFrame.Navigate(addGroupPage);
         }
 
         private void ListMarkStudentBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            ListStudentPage listStudentPage = new ListStudentPage();
+            MenuFrame.Navigate
         }
 
         private void DeleteStudentBtn_Click(object sender, RoutedEventArgs e)

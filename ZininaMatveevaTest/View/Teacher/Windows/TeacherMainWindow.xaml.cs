@@ -24,8 +24,8 @@ namespace ZininaMatveevaTest.View.Teacher.Windows
         public TeacherMainWindow()
         {
             InitializeComponent();
-            TeacherMainPage teacherMainPage = new TeacherMainPage();
-            TeacherMainFrame.Navigate(teacherMainPage);
+            //TeacherMainPage teacherMainPage = new TeacherMainPage();
+            //TeacherMainFrame.Navigate(teacherMainPage);
             FrameHelper.selectedFrame = TeacherMainFrame;
         }
 

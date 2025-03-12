@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ZininaMatveevaTest.View.Teacher.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="383" d:DesignWidth="800"
-      Title="TeacherMainPage">
+      Title="OnePage">
 
     <Grid Background="White">
         <Grid.RowDefinitions>
@@ -26,5 +26,6 @@
                 Width="400" Height="50" Grid.Row="3"/>
         <Button Content="Выйти в главное меню" Name="GoOutBtn" Click="GoOutBtn_Click"
                 Width="400" Height="50" Grid.Row="4"/>
+        <Frame Name="MenuFrame"  NavigationUIVisibility="Hidden" Grid.RowSpan="5"/>
     </Grid>
 </Page>

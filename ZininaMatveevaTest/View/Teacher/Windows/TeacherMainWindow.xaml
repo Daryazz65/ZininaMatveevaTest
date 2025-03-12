@@ -29,7 +29,7 @@
                      Width="250" Height="60"/>
             <Button Content="OK" Grid.Row="2" Name="OkBtn" Click="OkBtn_Click"
                     Height="40" Width="60" Margin="0 0 0 50"/>
-            <Frame Name="TeacherMainFrame" NavigationUIVisibility="Hidden"/>
+            <Frame Name="TeacherMainFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="3"/>
         </Grid>
     </Grid>
 </Window>

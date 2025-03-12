@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace ZininaMatveevaTest.View.Teacher.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для AddGroupPage.xaml
+    /// Логика взаимодействия для ListStudentPage.xaml
     /// </summary>
-    public partial class AddGroupPage : Page
+    public partial class ListStudentPage : Page
     {
-        public AddGroupPage()
+        public ListStudentPage()
         {
             InitializeComponent();
-        }
-
-        private void AddBtn_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void GoOutBtn_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
