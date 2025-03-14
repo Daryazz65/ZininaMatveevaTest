@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using ZininaMatveevaTest.Model;
 
 namespace ZininaMatveevaTest
 {
@@ -13,5 +14,14 @@ namespace ZininaMatveevaTest
     /// </summary>
     public partial class App : Application
     {
+        private static ZininaMatveevaTestEntities _context;
+        public static ZininaMatveevaTestEntities GetContext()
+        {
+            if (_context == null)
+            {
+                _context = new ZininaMatveevaTestEntities();
+            }
+            return _context;
+        }
     }
 }

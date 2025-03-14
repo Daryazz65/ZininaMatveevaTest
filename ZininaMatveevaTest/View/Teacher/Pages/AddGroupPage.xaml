@@ -22,11 +22,12 @@
 
         <TextBlock Text="Введите группу:" HorizontalAlignment="Center" VerticalAlignment="Center"
                    FontSize="20" Grid.Row="1"/>
-        <TextBox Grid.Column="1" Grid.Row="1" Height="40" Width="300" BorderBrush="Black"/>
+        <TextBox Name="AddTb" Grid.Column="1" Grid.Row="1" Height="40" Width="300" BorderBrush="Black"/>
         <Button Grid.Row="2" Content="Добавить" Height="40" Width="300"
                 Name="AddBtn" Click="AddBtn_Click"/>
         <Button Grid.Row="2" Grid.Column="1" Content="Назад" Height="40" 
                 Width="300" Name="GoOutBtn" Click="GoOutBtn_Click"/>
+        <Frame Name="MenuFrame"  NavigationUIVisibility="Hidden" Grid.RowSpan="4" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Page>
