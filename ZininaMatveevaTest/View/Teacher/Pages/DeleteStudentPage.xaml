@@ -27,9 +27,9 @@
         <Button Content="Назад" Grid.Row="2" Margin="10"/>
         <Button Content="Печать" Grid.Column="1" Grid.Row="2" Margin="10"/>
         
-        <DataGrid Grid.ColumnSpan="4"
+        <DataGrid Grid.ColumnSpan="4" Margin="10"
             Foreground="Azure" x:Name="UserDG" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True"
-                  Grid.Row="1" ColumnWidth="*" Margin="5" IsSynchronizedWithCurrentItem="True" 
+                  Grid.Row="1" ColumnWidth="*" IsSynchronizedWithCurrentItem="True" 
                   SelectionChanged="UserDG_SelectionChanged">
             <DataGrid.Columns>
                 <!--!!!!!!!!!!!!!!!-->
