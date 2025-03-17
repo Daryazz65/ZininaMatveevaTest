@@ -5,10 +5,30 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ZininaMatveevaTest.View.Student.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="1200"
       Title="PageTest1">
 
     <Grid>
-        
+        <TabControl Name="products">
+            <TabItem Name="v1">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="1">1</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   ввыделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+            
+            
+        </TabControl>
     </Grid>
 </Page>
