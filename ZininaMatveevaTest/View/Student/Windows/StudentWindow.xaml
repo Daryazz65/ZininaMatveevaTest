@@ -1,0 +1,22 @@
+﻿<Window x:Class="ZininaMatveevaTest.View.Student.Windows.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZininaMatveevaTest.View.Student.Windows"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="500" Width="1200">
+    <Grid>
+        <StackPanel Name="StackPanel1" Orientation="Vertical" Margin="250 50 250 50">
+            <TextBlock Text="Выберите группу" FontSize="30"/>
+            <ComboBox Name="CmbGroup" FontWeight="Bold" FontSize="30" SelectionChanged="CmbGroup_SelectionChanged"/>
+            <TextBlock Text="Выберите студента" FontSize="30"/>
+            <ComboBox Name="CmbStudent" FontWeight="Bold" FontSize="30"/>
+            <TextBlock Text="Выберите тест" FontSize="30"/>
+            <ComboBox Name="CmbTest" FontWeight="Bold" FontSize="30"/>
+            <Button Content="Начать" Name="BtnStart" FontSize="30" FontWeight="Bold" Margin="10 50 10 10" Click="BtnStart_Click"/>
+            <Frame Name="MenuFrame"  NavigationUIVisibility="Hidden" />
+
+        </StackPanel>
+    </Grid>
+</Window>

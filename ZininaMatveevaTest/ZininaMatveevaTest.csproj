@@ -65,6 +65,21 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="AppData\FrameHelper.cs" />
+    <Compile Include="View\Student\Pages\PageTest1.xaml.cs">
+      <DependentUpon>PageTest1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Student\Pages\PageTest2.xaml.cs">
+      <DependentUpon>PageTest2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Student\Pages\PageTest3.xaml.cs">
+      <DependentUpon>PageTest3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Student\Pages\PageTest4.xaml.cs">
+      <DependentUpon>PageTest4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Student\Windows\StudentWindow.xaml.cs">
+      <DependentUpon>StudentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Teacher\Pages\AddGroupPage.xaml.cs">
       <DependentUpon>AddGroupPage.xaml</DependentUpon>
     </Compile>
@@ -99,6 +114,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\Student\Pages\PageTest1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Student\Pages\PageTest2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Student\Pages\PageTest3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Student\Pages\PageTest4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Student\Windows\StudentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Teacher\Pages\AddGroupPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -201,9 +236,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\Student\Pages\" />
-    <Folder Include="View\Student\Windows\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZininaMatveevaTest.Model;
 
 namespace ZininaMatveevaTest.View.Teacher.Pages
 {
@@ -20,9 +21,20 @@ namespace ZininaMatveevaTest.View.Teacher.Pages
     /// </summary>
     public partial class ListStudentPage : Page
     {
+        private static ZininaMatveevaTestEntities _context = App.GetContext();
         public ListStudentPage()
         {
             InitializeComponent();
+            UserDG.ItemsSource = _context.Student.ToList();
+            GroupCmb.ItemsSource = _context.Group.ToList();
+            StudentCmb.ItemsSource = _context.Student.ToList();
+            GroupCmb.DisplayMemberPath = "Name";
+            StudentCmb.DisplayMemberPath = "Name";
+        }
+
+        private void UserDG_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
