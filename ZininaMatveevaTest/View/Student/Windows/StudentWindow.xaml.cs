@@ -43,7 +43,6 @@ namespace ZininaMatveevaTest.View.Student.Windows
             CmbStudent.ItemsSource = ClassConnect.Ent.Student.Where
                 (x => x.IdGroup == SelectedGroup).ToList();
         }
-
         private void BtnStart_Click(object sender, RoutedEventArgs e)
         {
             string mes = "";
