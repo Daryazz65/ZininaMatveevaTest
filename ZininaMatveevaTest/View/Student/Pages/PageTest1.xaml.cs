@@ -24,5 +24,20 @@ namespace ZininaMatveevaTest.View.Student.Pages
         {
             InitializeComponent();
         }
+
+        private void p2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

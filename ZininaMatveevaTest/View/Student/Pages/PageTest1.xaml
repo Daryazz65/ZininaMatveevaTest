@@ -13,13 +13,110 @@
             <TabItem Name="v1">
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="1">1</TextBlock>
+                        <TextBlock Margin="3">1</TextBlock>
                     </StackPanel>
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   ввыделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                        <TextBox Name="Tb1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p1" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p1_Click"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v2">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">2</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Принцип, лежащий в основе деления промышленной продукции на группы А и Б: " FontSize="30"/>
+                        <RadioButton Name="RB1" Margin="10" HorizontalAlignment="Left" FontSize="20" Content="назначение производимой продукции"/>
+                        <RadioButton Name="RB2" Margin="10" HorizontalAlignment="Left" FontSize="20" Content="фактическое использование продукции"/>
+                        <RadioButton Name="RB3" Margin="10" HorizontalAlignment="Left" FontSize="20" Content="общность основного сырья"/>
+                        <RadioButton Name="RB4" Margin="10" HorizontalAlignment="Left" FontSize="20" Content="сложность технологических процессов"/>
+                        <Button Name="p2" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p2_Click"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v3">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">3</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Отраслевая структура промышленности характеризуютя:" FontSize="30"/>
+                        <CheckBox Name="ChB1" Margin="10" HorizontalAlignment="Left" Content="долей продукции отрасли в общем обьеме основных фондов промышленности" FontSize="20"/>
+                        <CheckBox Name="ChB2" Margin="10" HorizontalAlignment="Left" Content="долей основных фондов отрасли в обще обьеме основных фондов промышленности" FontSize="20"/>
+                        <CheckBox Name="ChB3" Margin="10" HorizontalAlignment="Left" Content="долей оборотных фондов в общем обьеме оборотных фондов промышленности" FontSize="20"/>
+                        <CheckBox Name="ChB4" Margin="10" HorizontalAlignment="Left" Content="долей работнииков, занятых в отрасли, в общей численности работников промышленности" FontSize="20"/>
+                        <CheckBox Name="ChB5" Margin="10" HorizontalAlignment="Left" Content="долей прибыли отрасли в общей прибыли промышленности" FontSize="20"/>
+                        <Button Name="p3" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p3_Click"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v4">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">4</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="К основным направлениям научно-технического процесса в промышленности относится: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   электрификация промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   комплексная механизация, автоматизация и компьютеризация промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   специализация промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   химизация промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   1,2,4" FontSize="20"/>
+                        <TextBox Name="Tb2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p4" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p3_Click"/>
+
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v5">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">5</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBox Name="Tb2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v6">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">6</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
@@ -27,8 +124,276 @@
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
-            
-            
+
+            <TabItem Name="v7">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">7</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v8">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">8</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v9">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">9</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v10">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">10</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v11">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">11</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v12">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">12</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v13">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">13</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v14">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">14</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v15">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">15</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v16">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">16</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v17">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">17</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v18">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">18</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v19">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">19</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v20">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">20</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="v21">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="3">21</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <StackPanel Margin="15">
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
         </TabControl>
     </Grid>
 </Page>
