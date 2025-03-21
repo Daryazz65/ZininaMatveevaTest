@@ -96,13 +96,13 @@
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
-                        <TextBox Name="Tb2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Какой тип производства является наиболее эффективным с точки зрения минимизации издержек производства?" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   индивидуальное производство" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   мелкосерийное производство" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   массовое производство" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   непрерывное прозводство" FontSize="20"/>
+                        <TextBox Name="Tb3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p5" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p5_Click"/>
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
@@ -115,12 +115,15 @@
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Серийному производств свойственны: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   широкое использование универсального оборудования" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   организация рабочих мест по технологической специализации" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   типизация технологических процессов и оснастки" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   1-3" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   1,3" FontSize="20"/>
+                        <TextBox Name="Tb4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p6" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p6_Click"/>
+
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
@@ -133,12 +136,15 @@
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Единичному производству свойственны: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   преимущественная численность рабочих высокой квалификации" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   развитию монополизма" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   снижению дефицита производства" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   улучшению использования производственных фондов" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   1-3" FontSize="20"/>
+                        <TextBox Name="Tb5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p7" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p7_Click"/>
+
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
@@ -151,12 +157,15 @@
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Верно ли утверждение, что увеличение концентрации производства способствует " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   оптимальному сочетанию крупных, средних и мелких предприятий" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   развитию монополизма" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   снижению дефицита продукции" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   улучшению использования производственных фондов" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   1-3" FontSize="20"/>
+                        <TextBox Name="Tb6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p8" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p8_Click"/>
+
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
@@ -169,12 +178,15 @@
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Государственное регулирование рынка. правовые основы, устанавливаюся" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   указами президента рф" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   постановлением правительства рф" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   гражданским кодексом рф и фз" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   1-3" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   1-2" FontSize="20"/>
+                        <TextBox Name="Tb7" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
+                        <Button Name="p9" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p9_Click"/>
+
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
@@ -187,11 +199,11 @@
                 </TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Margin="15">
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="Пути формирования отраслей промышленности: " FontSize="30"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   выделение отраслей промышленности из других отраслей нац. хозяйства" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   углубление специализации в своей промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   развитие концентрации в промышленности" FontSize="20"/>
-                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   расширение комбинирвания в промышленности" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="какие организации признаются юридическими лицами: " FontSize="30"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="1   организация, которая имеет в собственности обособленное имущество" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="2   организация, которая имеет имущество в хоз ведении" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="3   организация, которая имеет обособленное имущество в оперативном" FontSize="20"/>
+                        <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   " FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   научно - технический прогресс" FontSize="20"/>
                     </StackPanel>
                 </TabItem.Content>
