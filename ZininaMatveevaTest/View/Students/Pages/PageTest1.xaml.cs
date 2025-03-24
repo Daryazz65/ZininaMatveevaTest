@@ -64,5 +64,70 @@ namespace ZininaMatveevaTest.View.Student.Pages
         {
 
         }
+
+        private void p10_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p12_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p13_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p14_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click_4(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click_5(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click_6(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

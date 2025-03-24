@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ZininaMatveevaTest.AppData;
 using ZininaMatveevaTest.View.Student.Pages;
 using ZininaMatveevaTest.View.Teacher.Pages;
 
@@ -26,21 +27,21 @@ namespace ZininaMatveevaTest.View.Student.Windows
             InitializeComponent();
             CmbGroup.SelectedValuePath = "ID";
             CmbGroup.DisplayMemberPath = "Name";
-            CmbGroup.ItemsSource = ClassConnect.Ent.Group.ToList();
+            CmbGroup.ItemsSource = ClassConnect._context.Group.ToList();
 
             CmbStudent.SelectedValuePath = "ID";
             CmbStudent.DisplayMemberPath = "Name";
-            CmbStudent.ItemsSource = ClassConnect.Ent.Student.ToList();
+            CmbStudent.ItemsSource = ClassConnect._context.Student.ToList();
 
             CmbTest.SelectedValuePath = "ID";
             CmbTest.DisplayMemberPath = "Name";
-            CmbTest.ItemsSource = ClassConnect.Ent.Test.ToList();
+            CmbTest.ItemsSource = ClassConnect._context.Test.ToList();
         }
 
         private void CmbGroup_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int SelectedGroup = Convert.ToInt32(CmbGroup.SelectedValue);
-            CmbStudent.ItemsSource = ClassConnect.Ent.Student.Where
+            CmbStudent.ItemsSource = ClassConnect._context.Student.Where
                 (x => x.IdGroup == SelectedGroup).ToList();
         }
         private void BtnStart_Click(object sender, RoutedEventArgs e)
