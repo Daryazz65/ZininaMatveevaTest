@@ -13,16 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ZininaMatveevaTest.View.Student.Pages
+namespace ZininaMatveevaTest.View.Students.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для PageTest1.xaml
+    /// Логика взаимодействия для PageTest11.xaml
     /// </summary>
-    public partial class PageTest1 : Page
+    public partial class PageTest11 : Page
     {
-        public PageTest1()
+        public PageTest11()
         {
             InitializeComponent();
+        }
+
+        private void p1_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void p2_Click(object sender, RoutedEventArgs e)
@@ -35,7 +40,7 @@ namespace ZininaMatveevaTest.View.Student.Pages
 
         }
 
-        private void p1_Click(object sender, RoutedEventArgs e)
+        private void p4_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -80,11 +85,6 @@ namespace ZininaMatveevaTest.View.Student.Pages
 
         }
 
-        private void p12_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void p13_Click(object sender, RoutedEventArgs e)
         {
 
@@ -100,32 +100,32 @@ namespace ZininaMatveevaTest.View.Student.Pages
 
         }
 
-        private void p15_Click_1(object sender, RoutedEventArgs e)
+        private void p16_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void p15_Click_2(object sender, RoutedEventArgs e)
+        private void p17_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void p15_Click_3(object sender, RoutedEventArgs e)
+        private void p18_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void p15_Click_4(object sender, RoutedEventArgs e)
+        private void p19_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void p15_Click_5(object sender, RoutedEventArgs e)
+        private void p20_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void p15_Click_6(object sender, RoutedEventArgs e)
+        private void p21_Click(object sender, RoutedEventArgs e)
         {
 
         }

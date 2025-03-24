@@ -1,9 +1,9 @@
-﻿<Page x:Class="ZininaMatveevaTest.View.Students.Pages.PageTest1"
+﻿<Page x:Class="ZininaMatveevaTest.View.Students.Pages.PageTest11"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:ZininaMatveevaTest.View.Student.Pages"
+      xmlns:local="clr-namespace:ZininaMatveevaTest.View.Students.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="500" d:DesignWidth="1200"
       Title="PageTest1">
@@ -82,7 +82,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   химизация промышленности" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   1,2,4" FontSize="20"/>
                         <TextBox Name="Tb4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p4" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p3_Click"/>
+                        <Button Name="p4" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p4_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
@@ -327,7 +327,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   государственные" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   муниципальные" FontSize="20"/>
                         <TextBox Name="Tb16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p16" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p15_Click_1"/>
+                        <Button Name="p16" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p16_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
@@ -348,7 +348,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   государственные" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   муниципальные" FontSize="20"/>
                         <TextBox Name="Tb17" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p17" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p15_Click_2"/>
+                        <Button Name="p17" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p17_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
@@ -369,7 +369,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   государственные" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   муниципальные" FontSize="20"/>
                         <TextBox Name="Tb18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p18" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p15_Click_3"/>
+                        <Button Name="p18" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p18_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
@@ -390,7 +390,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   государственные" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   муниципальные" FontSize="20"/>
                         <TextBox Name="Tb19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p19" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p15_Click_4"/>
+                        <Button Name="p19" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p19_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
@@ -411,7 +411,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   государственные" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   муниципальные" FontSize="20"/>
                         <TextBox Name="Tb20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p20" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p15_Click_5"/>
+                        <Button Name="p20" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p20_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
@@ -431,7 +431,7 @@
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="4   государственные" FontSize="20"/>
                         <TextBlock Margin="10" HorizontalAlignment="Left" Text="5   муниципальные" FontSize="20"/>
                         <TextBox Name="Tb21" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40"/>
-                        <Button Name="p21" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p15_Click_6"/>
+                        <Button Name="p21" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="100" Height="40" Click="p21_Click"/>
 
                     </StackPanel>
                 </TabItem.Content>
